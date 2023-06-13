@@ -14,7 +14,7 @@ node {
         } catch (e) {
             throw e
         } finally {
-            junit 'target/surefire-reports/results.xml'
+            junit 'test-reports/results.xml'
         }
     }
 }
